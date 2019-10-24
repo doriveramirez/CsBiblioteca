@@ -1,0 +1,9 @@
+E:\Tarde\Clase\Class\DAD\Biblioteca\Biblioteca\Biblioteca\bin\Debug\netstandard2.0\Biblioteca.deps.json
+E:\Tarde\Clase\Class\DAD\Biblioteca\Biblioteca\Biblioteca\bin\Debug\netstandard2.0\Biblioteca.dll
+E:\Tarde\Clase\Class\DAD\Biblioteca\Biblioteca\Biblioteca\bin\Debug\netstandard2.0\Biblioteca.pdb
+E:\Tarde\Clase\Class\DAD\Biblioteca\Biblioteca\Biblioteca\obj\Debug\netstandard2.0\Biblioteca.csprojAssemblyReference.cache
+E:\Tarde\Clase\Class\DAD\Biblioteca\Biblioteca\Biblioteca\obj\Debug\netstandard2.0\Biblioteca.csproj.CoreCompileInputs.cache
+E:\Tarde\Clase\Class\DAD\Biblioteca\Biblioteca\Biblioteca\obj\Debug\netstandard2.0\Biblioteca.AssemblyInfoInputs.cache
+E:\Tarde\Clase\Class\DAD\Biblioteca\Biblioteca\Biblioteca\obj\Debug\netstandard2.0\Biblioteca.AssemblyInfo.cs
+E:\Tarde\Clase\Class\DAD\Biblioteca\Biblioteca\Biblioteca\obj\Debug\netstandard2.0\Biblioteca.dll
+E:\Tarde\Clase\Class\DAD\Biblioteca\Biblioteca\Biblioteca\obj\Debug\netstandard2.0\Biblioteca.pdb

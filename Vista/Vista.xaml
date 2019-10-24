@@ -1,0 +1,55 @@
+﻿<Page x:Class="Vista.Page1"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Vista"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Page1">
+    <Grid>
+        <Grid HorizontalAlignment="Left" Height="450" VerticalAlignment="Top" Width="800">
+            <Rectangle x:Name="BackgroundRectangle" HorizontalAlignment="Left" Height="450" Stroke="Black" VerticalAlignment="Top" Width="800">
+                <Rectangle.Fill>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="#FF1F2021" Offset="0.973"/>
+                        <GradientStop Color="#FF3878AC" Offset="0.374"/>
+                        <GradientStop Color="#FFB7CFE2" Offset="0.041"/>
+                    </LinearGradientBrush>
+                </Rectangle.Fill>
+            </Rectangle>
+            <Image x:Name="PeopleImage" Margin="309,89,297,167" Source="Usuarios.png" Stretch="Fill"/>
+            <ListBox x:Name="TableDatabase" HorizontalAlignment="Left" Height="177" Margin="154,247,0,0" VerticalAlignment="Top" Width="506" Opacity="0.5"/>
+            <Label x:Name="IdLabel" Content="ID:" HorizontalAlignment="Left" Margin="169,55,0,0" VerticalAlignment="Top" BorderThickness="0" Cursor="None" RenderTransformOrigin="0.583,0.038"/>
+            <Label x:Name="DniLabel" Content="DNI:" HorizontalAlignment="Left" Margin="169,89,0,0" VerticalAlignment="Top" BorderThickness="0" Cursor="None" RenderTransformOrigin="4.061,-2.538"/>
+            <Label x:Name="NameLabel" Content="Nombre:" HorizontalAlignment="Left" Margin="169,123,0,0" VerticalAlignment="Top" BorderThickness="0" Cursor="None"/>
+            <Label x:Name="SurnameOneLabel" Content="Apellido1:&#xD;&#xA;" HorizontalAlignment="Left" Margin="169,157,0,0" VerticalAlignment="Top" BorderThickness="0" Cursor="None" Height="27" Width="66"/>
+            <Label x:Name="SurnameTwoLabel" Content="Apellido2:" HorizontalAlignment="Left" Margin="169,191,0,0" VerticalAlignment="Top" BorderThickness="0" Cursor="None"/>
+            <TextBox x:Name="IdTextBox" HorizontalAlignment="Left" Height="23" Margin="290,55,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="230" Opacity="0.5"/>
+            <TextBox x:Name="DniTextBox" HorizontalAlignment="Left" Height="23" Margin="290,89,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="230" Opacity="0.5"/>
+            <TextBox x:Name="NameTextBox" HorizontalAlignment="Left" Height="23" Margin="290,123,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="230" Opacity="0.5"/>
+            <TextBox x:Name="SurnameOneTextBox" HorizontalAlignment="Left" Height="23" Margin="290,157,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="230" Opacity="0.5"/>
+            <TextBox x:Name="SurnameTwoTextBox" HorizontalAlignment="Left" Height="23" Margin="290,191,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="230" Opacity="0.5"/>
+            <Button x:Name="ModifyButton" Content="" HorizontalAlignment="Left" Margin="574,105,0,0" VerticalAlignment="Top" Width="60" RenderTransformOrigin="0.267,1.6" Height="60" FontSize="26" Padding="0" BorderThickness="0">
+                <Button.Background>
+                    <ImageBrush ImageSource="info+modify+settings+icon-1320196719700182712.png"/>
+                </Button.Background>
+            </Button>
+            <Button x:Name="DeleteButton" Content="" HorizontalAlignment="Left" Margin="574,176,0,0" VerticalAlignment="Top" Width="60" RenderTransformOrigin="0.267,1.6" Height="60" FontSize="32" BorderThickness="0">
+                <Button.Background>
+                    <ImageBrush ImageSource="erase-icon-1.jpg"/>
+                </Button.Background>
+            </Button>
+            <Button x:Name="ExitButton" Content="" HorizontalAlignment="Left" Margin="740,10,0,0" VerticalAlignment="Top" Width="50" RenderTransformOrigin="0.267,1.6" Height="50" BorderThickness="0">
+                <Button.Background>
+                    <ImageBrush ImageSource="close+cross+delete+exit+icon-1320186209424688637.png"/>
+                </Button.Background>
+            </Button>
+            <Button x:Name="CreateButton" Content="" HorizontalAlignment="Left" Margin="567,25,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="0.267,1.6" Height="75" FontSize="36" BorderThickness="0" Padding="0,2,0,0" Click="createButtonClick">
+                <Button.Background>
+                    <ImageBrush ImageSource="modify_1_01__709180.png"/>
+                </Button.Background>
+            </Button>
+        </Grid>
+    </Grid>
+</Page>

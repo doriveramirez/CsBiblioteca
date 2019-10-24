@@ -1,0 +1,134 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\Tarde\\Clase\\Class\\DAD\\Biblioteca\\Biblioteca\\Biblioteca\\Controlador.csproj": {}
+  },
+  "projects": {
+    "E:\\Tarde\\Clase\\Class\\DAD\\Biblioteca\\Biblioteca\\Biblioteca\\Controlador.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Tarde\\Clase\\Class\\DAD\\Biblioteca\\Biblioteca\\Biblioteca\\Controlador.csproj",
+        "projectName": "Controlador",
+        "projectPath": "E:\\Tarde\\Clase\\Class\\DAD\\Biblioteca\\Biblioteca\\Biblioteca\\Controlador.csproj",
+        "packagesPath": "C:\\Users\\AlumnadoTarde\\.nuget\\packages\\",
+        "outputPath": "E:\\Tarde\\Clase\\Class\\DAD\\Biblioteca\\Biblioteca\\Biblioteca\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\AlumnadoTarde\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "E:\\Tarde\\Clase\\Class\\DAD\\Biblioteca\\Biblioteca\\Modelo\\Modelo.csproj": {
+                "projectPath": "E:\\Tarde\\Clase\\Class\\DAD\\Biblioteca\\Biblioteca\\Modelo\\Modelo.csproj"
+              },
+              "E:\\Tarde\\Clase\\Class\\DAD\\Biblioteca\\Biblioteca\\Vista\\Vista.csproj": {
+                "projectPath": "E:\\Tarde\\Clase\\Class\\DAD\\Biblioteca\\Biblioteca\\Vista\\Vista.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "E:\\Tarde\\Clase\\Class\\DAD\\Biblioteca\\Biblioteca\\Modelo\\Modelo.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Tarde\\Clase\\Class\\DAD\\Biblioteca\\Biblioteca\\Modelo\\Modelo.csproj",
+        "projectName": "Modelo",
+        "projectPath": "E:\\Tarde\\Clase\\Class\\DAD\\Biblioteca\\Biblioteca\\Modelo\\Modelo.csproj",
+        "packagesPath": "C:\\Users\\AlumnadoTarde\\.nuget\\packages\\",
+        "outputPath": "E:\\Tarde\\Clase\\Class\\DAD\\Biblioteca\\Biblioteca\\Modelo\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\AlumnadoTarde\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "E:\\Tarde\\Clase\\Class\\DAD\\Biblioteca\\Biblioteca\\Vista\\Vista.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Tarde\\Clase\\Class\\DAD\\Biblioteca\\Biblioteca\\Vista\\Vista.csproj",
+        "projectName": "Vista",
+        "projectPath": "E:\\Tarde\\Clase\\Class\\DAD\\Biblioteca\\Biblioteca\\Vista\\Vista.csproj"
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    }
+  }
+}

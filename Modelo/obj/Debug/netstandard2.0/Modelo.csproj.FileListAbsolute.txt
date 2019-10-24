@@ -1,0 +1,15 @@
+E:\Tarde\Clase\Class\DAD\Biblioteca\Biblioteca\Modelo\bin\Debug\netstandard2.0\Modelo.deps.json
+E:\Tarde\Clase\Class\DAD\Biblioteca\Biblioteca\Modelo\bin\Debug\netstandard2.0\Modelo.dll
+E:\Tarde\Clase\Class\DAD\Biblioteca\Biblioteca\Modelo\bin\Debug\netstandard2.0\Modelo.pdb
+E:\Tarde\Clase\Class\DAD\Biblioteca\Biblioteca\Modelo\obj\Debug\netstandard2.0\Modelo.csprojAssemblyReference.cache
+E:\Tarde\Clase\Class\DAD\Biblioteca\Biblioteca\Modelo\obj\Debug\netstandard2.0\Modelo.csproj.CoreCompileInputs.cache
+E:\Tarde\Clase\Class\DAD\Biblioteca\Biblioteca\Modelo\obj\Debug\netstandard2.0\Modelo.AssemblyInfoInputs.cache
+E:\Tarde\Clase\Class\DAD\Biblioteca\Biblioteca\Modelo\obj\Debug\netstandard2.0\Modelo.AssemblyInfo.cs
+E:\Tarde\Clase\Class\DAD\Biblioteca\Biblioteca\Modelo\obj\Debug\netstandard2.0\Modelo.dll
+E:\Tarde\Clase\Class\DAD\Biblioteca\Biblioteca\Modelo\obj\Debug\netstandard2.0\Modelo.pdb
+E:\Tarde\Clase\Class\DAD\Biblioteca\Biblioteca\Modelo\bin\Debug\netstandard2.0\MySql.Data.dll
+E:\Tarde\Clase\Class\DAD\Biblioteca\Biblioteca\Modelo\bin\Debug\netstandard2.0\Google.Protobuf.dll
+E:\Tarde\Clase\Class\DAD\Biblioteca\Biblioteca\Modelo\bin\Debug\netstandard2.0\BouncyCastle.Crypto.dll
+E:\Tarde\Clase\Class\DAD\Biblioteca\Biblioteca\Modelo\bin\Debug\netstandard2.0\Renci.SshNet.dll
+E:\Tarde\Clase\Class\DAD\Biblioteca\Biblioteca\Modelo\bin\Debug\netstandard2.0\MySql.Data.xml
+E:\Tarde\Clase\Class\DAD\Biblioteca\Biblioteca\Modelo\obj\Debug\netstandard2.0\Modelo.csproj.CopyComplete
