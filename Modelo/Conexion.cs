@@ -8,14 +8,12 @@ namespace Modelo
     public class Conexion
     {
         public MySqlConnection conexion {
-            get { return conexion; }
-            set { conexion = value; }
+            get { return ObtenerConexion(); }
         }
 
         public static MySqlConnection ObtenerConexion()
         {
             MySqlConnection conectar = new MySqlConnection("server=localhost; database=libros; Uid=root; pwd=elrincon1920;");
-
             conectar.Open();
             return conectar;
         }
