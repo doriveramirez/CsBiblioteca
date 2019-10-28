@@ -52,7 +52,7 @@
                     <ImageBrush ImageSource="resources/modify_1_01__709180.png"/>
                 </Button.Background>
             </Button>
-            <DataGrid x:Name="LibraryDataGrid" HorizontalAlignment="Left" Height="162" Margin="175,247,0,0" VerticalAlignment="Top" Width="459"/>
+            <DataGrid x:Name="LibraryDataGrid" ItemsSource="{Binding Path=Alumnos}" AutoGenerateColumns="True" HorizontalAlignment="Left" Height="162" Margin="175,247,0,0" VerticalAlignment="Top" Width="459"/>
         </Grid>
     </Grid>
 </Window>

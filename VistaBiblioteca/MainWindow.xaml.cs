@@ -22,10 +22,18 @@ namespace VistaBiblioteca
     /// </summary>
     public partial class MainWindow : Window
     {
-        
+        private ObservableCollection<Alumno> alumnos = new ObservableCollection<Alumno>();
+
+        public ObservableCollection<Alumno> Alumnos
+        {
+            get { return alumnos; }
+            set { alumnos = value; }
+        }
+
         public MainWindow()
         {
             InitializeComponent();
+            this.DataContext = this;
         }
 
         public DataGrid Library
@@ -40,11 +48,21 @@ namespace VistaBiblioteca
             set { DeleteButton = value; }
         }
 
+        public TextBox id
+        {
+            get { return IdTextBox; }
+            set { IdTextBox = value; }
+        }
+
         private void createButtonClick(object sender, RoutedEventArgs e)
         {
-            
-            Console.WriteLine("hola");
-            //Library.
+
+        }
+
+        public void setAlumnos(ObservableCollection<Alumno> alumnos)
+        {
+            Console.WriteLine("hola desde vista");
+            this.alumnos = alumnos;
         }
 
     }
